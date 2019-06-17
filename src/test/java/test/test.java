@@ -25,6 +25,11 @@ public class test {
 
 	@Test
 	public void treeValidation() throws Exception {
+		MyTest myTest = new MyTest();
+		myTest.setupGUIs();
+		myTest.buildTest();
+		myTest.buildTree();
+		myTest.exportJMX();
 	}
 
 	@Test

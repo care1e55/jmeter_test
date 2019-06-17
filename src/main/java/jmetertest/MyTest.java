@@ -1,7 +1,5 @@
 package jmetertest;
 
-import groovy.lang.Binding;
-import groovy.lang.GroovyShell;
 //import org.apache.jmeter.*;
 import org.apache.jmeter.config.Argument;
 import org.apache.jmeter.config.Arguments;
@@ -35,11 +33,14 @@ public class MyTest {
 	final static Logger logger = Logger.getLogger(Main.class);
 
 	StandardJMeterEngine jMeterEngine;
+	HashTree testTree;
 
 	TestPlan testPlan;
 	LoopController controller;
 	ThreadGroup threadGroup;
-	HTTPSamplerProxy sampler;
+	HTTPSamplerProxy sampler1;
+	HTTPSamplerProxy sampler2;
+	HTTPSamplerProxy sampler3;
 	BackendListener backendListener;
 	ConstantTimer constantTimer;
 	RegexExtractor extractor;
@@ -55,7 +56,11 @@ public class MyTest {
 		testPlan = new TestPlan("test1");
 		controller = new LoopController();
 		threadGroup = new ThreadGroup();
-		sampler = new HTTPSamplerProxy();
+
+		sampler1 = mySampler.createSampler1("name!");
+		sampler2 = mySampler.createSamplerPost("poooost" , "1" , "2");
+		sampler3 = mySampler.createSampler3("name3");
+
 		constantTimer = new ConstantTimer();
 		backendListener = new BackendListener();
 		extractor = new RegexExtractor();
@@ -63,7 +68,7 @@ public class MyTest {
 
 	}
 
-	public void exportJMX(HashTree testTree) throws Exception {
+	public void exportJMX() throws Exception {
 		SaveService.saveTree(testTree, new FileOutputStream("example.jmx"));
 	}
 
@@ -86,7 +91,6 @@ public class MyTest {
 	}
 
 
-
 	public void configureThreadGroup() {
 		testPlan.setUserDefinedVariables((Arguments)new ArgumentsPanel().createTestElement());
 		threadGroup.setName("kek");
@@ -98,19 +102,6 @@ public class MyTest {
 		controller.setFirst(true);
 		controller.setContinueForever(true);
 		controller.initialize();
-	}
-
-	public void configureSampler() {
-		sampler.setName("keksampler");
-		sampler.setDomain("localhost");
-		sampler.setPort(8000);
-		sampler.setProtocol("http");
-		sampler.setMethod("GET");
-		sampler.setFollowRedirects(true);
-		sampler.setAutoRedirects(true);
-		sampler.setUseKeepAlive(true);
-		sampler.setDoMultipartPost(false);
-		constantTimer.setDelay("1000");
 	}
 
 
@@ -160,7 +151,6 @@ public class MyTest {
 
 	public void buildTest() {
 		configureThreadGroup();
-		configureSampler();
 		configureExtractor();
 		configureListener();
 
@@ -168,15 +158,17 @@ public class MyTest {
 	}
 
 		public HashTree buildTree() {
-			HashTree tptree = new HashTree();
-			HashTree tgtree = tptree.add(testPlan, threadGroup);
-			HashTree stree = tgtree.add(sampler);
+			testTree = new HashTree();
+			testTree.add(testPlan);
+			HashTree tgtree = testTree.add(testPlan, threadGroup);
+			HashTree stree = tgtree.add(sampler1);
+			HashTree stree2 = tgtree.add(sampler2);
+			HashTree stree3 = tgtree.add(sampler3);
 			tgtree.add(backendListener);
-			tgtree.add(responseListener);
-			tptree.add(testPlan);
+//			tgtree.add(responseListener);
 			stree.add(constantTimer);
 			stree.add(extractor);
-			return tptree;
+			return testTree;
 		}
 
 		public void execute() {
@@ -192,8 +184,12 @@ public class MyTest {
 		testPlan.setProperty(TestElement.GUI_CLASS, TestPlanGui.class.getName());
 		threadGroup.setProperty(TestElement.TEST_CLASS, ThreadGroup.class.getName());
 		threadGroup.setProperty(TestElement.GUI_CLASS, ThreadGroupGui.class.getName());
-		sampler.setProperty(TestElement.TEST_CLASS, HTTPSamplerProxy.class.getName());
-		sampler.setProperty(TestElement.GUI_CLASS, HttpTestSampleGui.class.getName());
+		sampler1.setProperty(TestElement.TEST_CLASS, HTTPSamplerProxy.class.getName());
+		sampler1.setProperty(TestElement.GUI_CLASS, HttpTestSampleGui.class.getName());
+		sampler2.setProperty(TestElement.TEST_CLASS, HTTPSamplerProxy.class.getName());
+		sampler2.setProperty(TestElement.GUI_CLASS, HttpTestSampleGui.class.getName());
+		sampler3.setProperty(TestElement.TEST_CLASS, HTTPSamplerProxy.class.getName());
+		sampler3.setProperty(TestElement.GUI_CLASS, HttpTestSampleGui.class.getName());
 		constantTimer.setProperty(ConstantTimer.TEST_CLASS, ConstantTimer.class.getName());
 		constantTimer.setProperty(ConstantTimer.GUI_CLASS, ConstantTimerGui.class.getName());
 		backendListener.setProperty(BackendListener.TEST_CLASS, BackendListener.class.getName());
@@ -203,6 +199,7 @@ public class MyTest {
 //		bckl_args.setProperty(Arguments.TEST_CLASS, Arguments.class.getName());
 //		bckl_args.setProperty(Arguments.GUI_CLASS, ArgumentsPanel.class.getName());
 	}
+
 
 }
 

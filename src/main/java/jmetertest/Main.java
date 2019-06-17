@@ -194,7 +194,7 @@ public class Main {
 //		stree.add(constantTimer);
 
 
-//		tptree.add(tgtree, sampler);
+//		testTree.add(tgtree, sampler);
 
 		StandardJMeterEngine jMeterEngine = new StandardJMeterEngine();
 		jMeterEngine.configure(tptree);
