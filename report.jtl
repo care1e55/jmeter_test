@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+
+<httpSample t="28" it="0" lt="28" ct="22" ts="1560636887134" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:47 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636888193" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:48 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="2" ts="1560636889200" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:49 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636890207" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:50 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636891213" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:51 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="1" ct="0" ts="1560636892219" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:52 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="1" ct="0" ts="1560636893221" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:53 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636894223" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:54 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636895229" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:55 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="2" ts="1560636896236" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:56 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="0" ct="0" ts="1560636897243" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:57 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636898245" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:58 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636899253" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:14:59 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636900259" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:00 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="2" ts="1560636901268" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:01 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636902275" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:02 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="2" it="0" lt="2" ct="1" ts="1560636903281" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:03 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636904286" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:04 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636905292" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:05 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636906298" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:06 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="1" ct="0" ts="1560636907304" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:07 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="2" ct="1" ts="1560636908306" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:08 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="2" it="0" lt="2" ct="1" ts="1560636909312" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:09 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="2" ct="1" ts="1560636910317" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:10 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="3" it="0" lt="3" ct="1" ts="1560636911322" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:11 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+<httpSample t="1" it="0" lt="1" ct="0" ts="1560636912335" s="true" lb="keksampler" rc="200" rm="OK" tn="kek 1-1" dt="text" de="" by="851" sby="118" sc="1" ec="0" ng="1" na="1" hn="care1e55-PC">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx/1.15.12
+Date: Sat, 15 Jun 2019 22:15:12 GMT
+Content-Type: text/html
+Content-Length: 612
+Last-Modified: Tue, 16 Apr 2019 13:08:19 GMT
+Connection: keep-alive
+ETag: &quot;5cb5d3c3-264&quot;
+Accept-Ranges: bytes
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: localhost:8000
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_201)
+</requestHeader>
+  <responseData class="java.lang.String">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Welcome to nginx!&lt;/title&gt;
+&lt;style&gt;
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;Welcome to nginx!&lt;/h1&gt;
+&lt;p&gt;If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.&lt;/p&gt;
+
+&lt;p&gt;For online documentation and support please refer to
+&lt;a href=&quot;http://nginx.org/&quot;&gt;nginx.org&lt;/a&gt;.&lt;br/&gt;
+Commercial support is available at
+&lt;a href=&quot;http://nginx.com/&quot;&gt;nginx.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thank you for using nginx.&lt;/em&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://localhost:8000/</java.net.URL>
+</httpSample>
+
+</testResults>
