@@ -186,7 +186,7 @@ public class MyTest {
 				e.printStackTrace();
 			}
 		}
-fdf
+//fdfdfdf
 	public void setupGUIs() {
 		testPlan.setProperty(TestElement.TEST_CLASS, TestPlan.class.getName());
 		testPlan.setProperty(TestElement.GUI_CLASS, TestPlanGui.class.getName());
