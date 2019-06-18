@@ -1,5 +1,8 @@
 package jmetertest;
 
+import org.apache.jmeter.extractor.RegexExtractor;
+import org.apache.jmeter.extractor.gui.RegexExtractorGui;
+import org.apache.jmeter.protocol.http.control.gui.HttpTestSampleGui;
 import org.apache.jmeter.protocol.http.sampler.HTTPSampler;
 import org.apache.jmeter.protocol.http.sampler.HTTPSamplerBase;
 import org.apache.jmeter.protocol.http.sampler.HTTPSamplerFactory;
@@ -9,6 +12,10 @@ import org.apache.jmeter.samplers.AbstractSampler;
 import org.apache.jmeter.samplers.Entry;
 import org.apache.jmeter.samplers.SampleResult;
 import org.apache.jmeter.samplers.Sampler;
+import org.apache.jmeter.testelement.TestElement;
+import org.apache.jmeter.timers.ConstantTimer;
+import org.apache.jmeter.timers.gui.ConstantTimerGui;
+import org.apache.jorphan.collections.HashTree;
 
 public class mySampler {
 
@@ -22,18 +29,40 @@ public class mySampler {
 		mysampler.setAutoRedirects(true);
 		mysampler.setUseKeepAlive(true);
 		mysampler.setDoMultipartPost(false);
+		mysampler.setProperty(TestElement.TEST_CLASS, HTTPSamplerProxy.class.getName());
+		mysampler.setProperty(TestElement.GUI_CLASS, HttpTestSampleGui.class.getName());
+
 	}
 
-	public static HTTPSamplerProxy createSampler1(String name) {
+	public static HashTree createSampler1(String name) {
 		HTTPSamplerProxy mysampler = new HTTPSamplerProxy();
+		ConstantTimer constantTimer = new ConstantTimer();
+		RegexExtractor extractor = new RegexExtractor();
+		HashTree myTree = new HashTree();
 		configureDefaults(mysampler);
 		mysampler.setName(name);
-		return mysampler;
+
+		extractor.setRefName("extracted");
+		extractor.setRegex("<a href=\"(.*?)\">nginx.com</a>");
+		extractor.setTemplate("$1$");
+		extractor.setDefaultValue("DEFAULT");
+		extractor.setMatchNumber(0);
+		constantTimer.setDelay("1000");
+		constantTimer.setProperty(ConstantTimer.TEST_CLASS, ConstantTimer.class.getName());
+		constantTimer.setProperty(ConstantTimer.GUI_CLASS, ConstantTimerGui.class.getName());
+		extractor.setProperty(RegexExtractor.TEST_CLASS, RegexExtractor.class.getName());
+		extractor.setProperty(RegexExtractor.GUI_CLASS, RegexExtractorGui.class.getName());
+
+		myTree.add(mysampler);
+		myTree.add(mysampler, constantTimer);
+		myTree.add(mysampler, extractor);
+
+		return myTree;
 	}
 
-	public static HTTPSamplerProxy
-	createSamplerPost(String name, String node1, String node2) {
+	public static HashTree createSamplerPost(String name, String node1, String node2) {
 		HTTPSamplerProxy mysampler = new HTTPSamplerProxy();
+		HashTree myTree = new HashTree();
 		configureDefaults(mysampler);
 		mysampler.setName(name);
 		mysampler.setMethod("POST");
@@ -43,14 +72,18 @@ public class mySampler {
 						+ " " + node2 +
 						"</lol>";
 		body.setValue(sBody);
-		return mysampler;
+		myTree.add(mysampler);
+		return myTree;
 	}
 
-	public static HTTPSamplerProxy createSampler3(String name) {
+	public static HashTree createSampler3(String name) {
 		HTTPSamplerProxy mysampler = new HTTPSamplerProxy();
+		HashTree myTree = new HashTree();
 		configureDefaults(mysampler);
 		mysampler.setName(name);
-		return mysampler;
+		myTree.add(mysampler);
+		return myTree;
 	}
+
 
 }

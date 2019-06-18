@@ -21,7 +21,6 @@ public class ResponseListener
 //
 //	}
 
-
 	@Override
 	public void sampleOccurred(SampleEvent sampleEvent) {
 		logger.info("Sample Occurred");

@@ -38,12 +38,7 @@ public class MyTest {
 	TestPlan testPlan;
 	LoopController controller;
 	ThreadGroup threadGroup;
-	HTTPSamplerProxy sampler1;
-	HTTPSamplerProxy sampler2;
-	HTTPSamplerProxy sampler3;
 	BackendListener backendListener;
-	ConstantTimer constantTimer;
-	RegexExtractor extractor;
 	ResponseListener responseListener;
 
 	public MyTest() {
@@ -56,14 +51,7 @@ public class MyTest {
 		testPlan = new TestPlan("test1");
 		controller = new LoopController();
 		threadGroup = new ThreadGroup();
-
-		sampler1 = mySampler.createSampler1("name!");
-		sampler2 = mySampler.createSamplerPost("poooost" , "1" , "2");
-		sampler3 = mySampler.createSampler3("name3");
-
-		constantTimer = new ConstantTimer();
 		backendListener = new BackendListener();
-		extractor = new RegexExtractor();
 		responseListener = new ResponseListener();
 
 	}
@@ -79,15 +67,6 @@ public class MyTest {
 		Class c = Class.forName(guiname);
 		element.setProperty(element.GUI_CLASS, element.getClass().getName());
 		logger.info(element.getPropertyAsString(element.GUI_CLASS));
-	}
-
-
-	public void configureExtractor() {
-		extractor.setRefName("extracted");
-		extractor.setRegex("<a href=\"(.*?)\">nginx.com</a>");
-		extractor.setTemplate("$1$");
-		extractor.setDefaultValue("DEFAULT");
-		extractor.setMatchNumber(0);
 	}
 
 
@@ -149,25 +128,21 @@ public class MyTest {
 
 	}
 
-	public void buildTest() {
-		configureThreadGroup();
-		configureExtractor();
-		configureListener();
-
-		jMeterEngine.configure(buildTree());
-	}
+		public void buildTest() {
+			configureThreadGroup();
+			configureListener();
+			jMeterEngine.configure(buildTree());
+		}
 
 		public HashTree buildTree() {
 			testTree = new HashTree();
 			testTree.add(testPlan);
 			HashTree tgtree = testTree.add(testPlan, threadGroup);
-			HashTree stree = tgtree.add(sampler1);
-			HashTree stree2 = tgtree.add(sampler2);
-			HashTree stree3 = tgtree.add(sampler3);
+			tgtree.add(mySampler.createSampler1("kek1"));
+			tgtree.add(mySampler.createSampler1("kek2"));
+			tgtree.add(mySampler.createSampler1("kek3"));
 			tgtree.add(backendListener);
 //			tgtree.add(responseListener);
-			stree.add(constantTimer);
-			stree.add(extractor);
 			return testTree;
 		}
 
@@ -184,18 +159,8 @@ public class MyTest {
 		testPlan.setProperty(TestElement.GUI_CLASS, TestPlanGui.class.getName());
 		threadGroup.setProperty(TestElement.TEST_CLASS, ThreadGroup.class.getName());
 		threadGroup.setProperty(TestElement.GUI_CLASS, ThreadGroupGui.class.getName());
-		sampler1.setProperty(TestElement.TEST_CLASS, HTTPSamplerProxy.class.getName());
-		sampler1.setProperty(TestElement.GUI_CLASS, HttpTestSampleGui.class.getName());
-		sampler2.setProperty(TestElement.TEST_CLASS, HTTPSamplerProxy.class.getName());
-		sampler2.setProperty(TestElement.GUI_CLASS, HttpTestSampleGui.class.getName());
-		sampler3.setProperty(TestElement.TEST_CLASS, HTTPSamplerProxy.class.getName());
-		sampler3.setProperty(TestElement.GUI_CLASS, HttpTestSampleGui.class.getName());
-		constantTimer.setProperty(ConstantTimer.TEST_CLASS, ConstantTimer.class.getName());
-		constantTimer.setProperty(ConstantTimer.GUI_CLASS, ConstantTimerGui.class.getName());
 		backendListener.setProperty(BackendListener.TEST_CLASS, BackendListener.class.getName());
 		backendListener.setProperty(BackendListener.GUI_CLASS, BackendListenerGui.class.getName());
-		extractor.setProperty(RegexExtractor.TEST_CLASS, RegexExtractor.class.getName());
-		extractor.setProperty(RegexExtractor.GUI_CLASS, RegexExtractorGui.class.getName());
 //		bckl_args.setProperty(Arguments.TEST_CLASS, Arguments.class.getName());
 //		bckl_args.setProperty(Arguments.GUI_CLASS, ArgumentsPanel.class.getName());
 	}
