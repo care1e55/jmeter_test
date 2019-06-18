@@ -8,69 +8,42 @@
     </TestPlan>
     <org.apache.jorphan.collections.HashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="kek">
-        <intProp name="ThreadGroup.ramp_time">0</intProp>
-        <intProp name="ThreadGroup.num_threads">1</intProp>
+        <intProp name="ThreadGroup.ramp_time">100</intProp>
+        <intProp name="ThreadGroup.num_threads">100</intProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController">
           <boolProp name="LoopController.continue_forever">true</boolProp>
-          <intProp name="LoopController.loops">-1</intProp>
+          <intProp name="LoopController.loops">100</intProp>
         </elementProp>
       </ThreadGroup>
       <org.apache.jorphan.collections.HashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="kek2">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments"/>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">localhost</stringProp>
-          <intProp name="HTTPSampler.port">8000</intProp>
-          <stringProp name="HTTPSampler.protocol">http</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-        </HTTPSamplerProxy>
-        <org.apache.jorphan.collections.HashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer">
-            <stringProp name="ConstantTimer.delay">1000</stringProp>
-          </ConstantTimer>
-          <org.apache.jorphan.collections.HashTree/>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor">
-            <stringProp name="RegexExtractor.refname">extracted</stringProp>
-            <stringProp name="RegexExtractor.regex">&lt;a href=&quot;(.*?)&quot;&gt;nginx.com&lt;/a&gt;</stringProp>
-            <stringProp name="RegexExtractor.template">$1$</stringProp>
-            <stringProp name="RegexExtractor.default">DEFAULT</stringProp>
-            <intProp name="RegexExtractor.match_number">0</intProp>
-          </RegexExtractor>
-          <org.apache.jorphan.collections.HashTree/>
-        </org.apache.jorphan.collections.HashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="kek3">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments"/>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">localhost</stringProp>
-          <intProp name="HTTPSampler.port">8000</intProp>
-          <stringProp name="HTTPSampler.protocol">http</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-        </HTTPSamplerProxy>
-        <org.apache.jorphan.collections.HashTree>
-          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer">
-            <stringProp name="ConstantTimer.delay">1000</stringProp>
-          </ConstantTimer>
-          <org.apache.jorphan.collections.HashTree/>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor">
-            <stringProp name="RegexExtractor.refname">extracted</stringProp>
-            <stringProp name="RegexExtractor.regex">&lt;a href=&quot;(.*?)&quot;&gt;nginx.com&lt;/a&gt;</stringProp>
-            <stringProp name="RegexExtractor.template">$1$</stringProp>
-            <stringProp name="RegexExtractor.default">DEFAULT</stringProp>
-            <intProp name="RegexExtractor.match_number">0</intProp>
-          </RegexExtractor>
-          <org.apache.jorphan.collections.HashTree/>
-        </org.apache.jorphan.collections.HashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="kek1">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">localhost</stringProp>
+          <intProp name="HTTPSampler.port">8000</intProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+        </HTTPSamplerProxy>
+        <org.apache.jorphan.collections.HashTree>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+          </ConstantTimer>
+          <org.apache.jorphan.collections.HashTree/>
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor">
+            <stringProp name="RegexExtractor.refname">extracted</stringProp>
+            <stringProp name="RegexExtractor.regex">&lt;a href=&quot;(.*?)&quot;&gt;nginx.com&lt;/a&gt;</stringProp>
+            <stringProp name="RegexExtractor.template">$1$</stringProp>
+            <stringProp name="RegexExtractor.default">DEFAULT</stringProp>
+            <intProp name="RegexExtractor.match_number">0</intProp>
+          </RegexExtractor>
+          <org.apache.jorphan.collections.HashTree/>
+        </org.apache.jorphan.collections.HashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="kek2">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -140,6 +113,33 @@
           <stringProp name="classname">org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient</stringProp>
         </BackendListener>
         <org.apache.jorphan.collections.HashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="kek2">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">localhost</stringProp>
+          <intProp name="HTTPSampler.port">8000</intProp>
+          <stringProp name="HTTPSampler.protocol">http</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+        </HTTPSamplerProxy>
+        <org.apache.jorphan.collections.HashTree>
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor">
+            <stringProp name="RegexExtractor.refname">extracted</stringProp>
+            <stringProp name="RegexExtractor.regex">&lt;a href=&quot;(.*?)&quot;&gt;nginx.com&lt;/a&gt;</stringProp>
+            <stringProp name="RegexExtractor.template">$1$</stringProp>
+            <stringProp name="RegexExtractor.default">DEFAULT</stringProp>
+            <intProp name="RegexExtractor.match_number">0</intProp>
+          </RegexExtractor>
+          <org.apache.jorphan.collections.HashTree/>
+          <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer">
+            <stringProp name="ConstantTimer.delay">1000</stringProp>
+          </ConstantTimer>
+          <org.apache.jorphan.collections.HashTree/>
+        </org.apache.jorphan.collections.HashTree>
       </org.apache.jorphan.collections.HashTree>
     </org.apache.jorphan.collections.HashTree>
   </org.apache.jorphan.collections.HashTree>
