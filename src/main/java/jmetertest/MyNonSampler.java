@@ -41,15 +41,14 @@ public class MyNonSampler {
 	public ThreadGroup configureThreadGroup() {
 		threadGroup = new ThreadGroup();
 		controller = new LoopController();
+		controller.setLoops(-1);
+		controller.setContinueForever(true);
+		controller.setFirst(true);
+		controller.initialize();
 		threadGroup.setName("kek");
 		threadGroup.setRampUp(100);
 		threadGroup.setNumThreads(100);
 		threadGroup.setSamplerController(controller);
-		controller.setLoops(100);
-		controller.setContinueForever(false);
-		controller.setFirst(true);
-		controller.setContinueForever(true);
-		controller.initialize();
 		threadGroup.setProperty(TestElement.TEST_CLASS, ThreadGroup.class.getName());
 		threadGroup.setProperty(TestElement.GUI_CLASS, ThreadGroupGui.class.getName());
 		return threadGroup;

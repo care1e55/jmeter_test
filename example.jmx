@@ -11,8 +11,8 @@
         <intProp name="ThreadGroup.ramp_time">100</intProp>
         <intProp name="ThreadGroup.num_threads">100</intProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController">
-          <boolProp name="LoopController.continue_forever">true</boolProp>
-          <intProp name="LoopController.loops">100</intProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
       </ThreadGroup>
       <org.apache.jorphan.collections.HashTree>

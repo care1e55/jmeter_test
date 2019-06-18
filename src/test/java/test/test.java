@@ -1,8 +1,10 @@
 package test;
 
 import jmetertest.MyTest;
+import org.apache.jmeter.engine.JMeterEngineException;
 import org.apache.jmeter.engine.StandardJMeterEngine;
 import org.apache.jmeter.util.keystore.JmeterKeyStore;
+import org.apache.jorphan.collections.HashTree;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
@@ -24,17 +26,21 @@ public class test {
 	@Test
 	public void debugrun() throws Exception {
 		MyTest myTest = new MyTest();
-		myTest.buildTest();
-		myTest.execute();
 	}
 
 	@Test
 	public void treeValidation() throws Exception {
 		MyTest myTest = new MyTest();
 		StandardJMeterEngine jMeterEngine = new StandardJMeterEngine();
-		jMeterEngine.configure(myTest.buildTree());
-		jMeterEngine.runTest();
+		HashTree treeeee = myTest.buildTree();
+		jMeterEngine.configure(treeeee);
 		myTest.exportJMX();
+
+		try {
+			jMeterEngine.runTest();
+		} catch (JMeterEngineException e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Test

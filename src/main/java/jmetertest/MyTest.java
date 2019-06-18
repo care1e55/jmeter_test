@@ -15,7 +15,6 @@ public class MyTest {
 
 	final static Logger logger = Logger.getLogger(Main.class);
 
-	StandardJMeterEngine jMeterEngine;
 	HashTree testTree;
 
 	public MyTest() {
@@ -23,17 +22,10 @@ public class MyTest {
 		JMeterUtils.loadJMeterProperties("jmeter.properties");
 		JMeterUtils.initLogging();
 		JMeterUtils.setLocale(Locale.ENGLISH);
-
-		jMeterEngine = new StandardJMeterEngine();
-
 	}
 
 	public void exportJMX() throws Exception {
 		SaveService.saveTree(testTree, new FileOutputStream("example.jmx"));
-	}
-
-	public void buildTest() {
-		jMeterEngine.configure(buildTree());
 	}
 
 	public HashTree buildTree() {
@@ -46,14 +38,6 @@ public class MyTest {
 		tgtree.add(nontest.backendListener);
 
 		return testTree;
-	}
-
-	public void execute() {
-		try {
-			jMeterEngine.runTest();
-		} catch (JMeterEngineException e) {
-			e.printStackTrace();
-		}
 	}
 
 }
