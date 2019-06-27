@@ -5,6 +5,9 @@ tmp/
 *.tmp
 *.bak
 *.swp
+*.jmx
+*.jtl
+*.log
 *~.nib
 local.properties
 .settings/
